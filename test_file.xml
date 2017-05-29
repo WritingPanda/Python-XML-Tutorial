@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<productListing title="Python Products" xmlns="pythonProducts"> 
+    <product> 
+        <name>Python Hoodie</name> 
+        <description>This hoodie will keep your code warm and fuzzy.</description> 
+        <cost>$49.95</cost> 
+        <shipping>$4.00</shipping> 
+    </product> 
+    <product> 
+        <name>Python T-Shirt</name>
+        <description>This shirt will make you look cool while you code.</description> 
+        <cost>$19.95</cost> 
+        <shipping>$4.00</shipping>
+    </product> 
+    <product> 
+        <name>Python Baseball Cap</name> 
+        <description>Whatever you do, don't wear it backwards. People won't know what your favorite programming language is if you do!</description> 
+        <cost>$14.95</cost> 
+        <shipping>$4.00</shipping> 
+    </product>
+</productListing>
