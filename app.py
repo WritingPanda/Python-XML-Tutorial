@@ -6,7 +6,7 @@ import xml.etree.ElementTree as etree
 BASE_PATH = os.path.dirname(os.path.realpath(__file__))
 
 # Get XML file and save its path to a variable
-xml_file = os.path.join(BASE_PATH, "test_file.xml")
+xml_file = os.path.join(BASE_PATH, "data\\product_listing.xml")
 
 # Access the XML file and parse it
 tree = etree.parse(xml_file)
