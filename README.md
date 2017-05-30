@@ -1,18 +1,28 @@
 # Python - XML Tutorial
 
+```
+ mmmmm           m    #                           m    m m    m m
+ #   "# m   m  mm#mm  # mm    mmm   m mm           #  #  ##  ## #
+ #mmm#" "m m"    #    #"  #  #" "#  #"  #           ##   # ## # #
+ #       #m#     #    #   #  #   #  #   #   """    m""m  # "" # #
+ #       "#      "mm  #   #  "#m#"  #   #         m"  "m #    # #mmmmm
+         m"
+        ""
+```
+
 Thank you for coming by and checking out my fundamentals of Python tutorial. In this lesson, we will be looking at how to read and write to XML using the Python programming language.
 
 ## Objectives
 
-In this lesson, you will use:
+In this lesson, you will learn and use:
 
-1. variables
-2. the `os` and `xml` modules in the Python standard library
-3. methods and functions
-4. control structures
-5. the `open()` function.
+1. what is XML?
+2. variables, lists, dictionaries
+3. control structures
+4. methods and functions
+5. the `os` and `xml` modules in the Python standard library
 
-With these 5 elements, you will be able to understand how to read and write to an XML file.
+With these 4 elements, you will be able to understand how to read and write to an XML file.
 
 ## Part I: Installing Python
 
@@ -86,7 +96,7 @@ The following are an example of HTML and XML, so you can see the difference betw
     </product> 
     <product> 
         <name>Python Baseball Cap</name> 
-        <description>Whatever you do, don't wear it backwards. People won't know what your favorite programming language is if you do!</description> 
+        <description>Whatever you do, don't wear it backwards. People won't know what your favorite programming language is if you do!</description>
         <cost>$14.95</cost> 
         <shipping>$4.00</shipping> 
     </product>
@@ -94,12 +104,6 @@ The following are an example of HTML and XML, so you can see the difference betw
 ```
 
 ## Part III: Python
-
-1. variables
-2. the `os` and `xml` modules in the Python standard library
-3. methods and functions
-4. control structures
-5. the `open()` function.
 
 As we said previously, we will be reading and writing to an XML file. The XML file will be where we store data to be read by Python. In our example, we will be updating the inventory of a store that sells products related to Python, such as hoodies, shirts, caps, and more.
 

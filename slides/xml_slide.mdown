@@ -1,0 +1,41 @@
+```
+ m    m m    m m
+  #  #  ##  ## #
+   ##   # ## # #
+  m""m  # "" # #
+ m"  "m #    # #mmmmm
+```
+
+Extensible Markup Language
+
+Similar to HTML (Hypertext Markup Language)
+    Data presentation
+
+Defines what is the data
+
+Designed to store and transport data
+    Often used to transport data over the Internet
+
+Easily read by humans and machines
+
+Example:
+
+```
+<root>
+    <child attribute="...">
+        <subchild>Hello world</subchild>
+    </child>
+</root>
+```
+
+```
+<?xml version="1.0"?> 
+<productListing title="Python Products"> 
+    <product> 
+        <name>Python Hoodie</name> 
+        <description>This hoodie will keep your code warm and fuzzy.</description>
+        <cost>$49.95</cost> 
+        <shipping>$4.00</shipping> 
+    </product> 
+</productListing>
+```

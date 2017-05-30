@@ -1,0 +1,17 @@
+```
+ mmmmm           m    #                           m    m m    m m
+ #   "# m   m  mm#mm  # mm    mmm   m mm           #  #  ##  ## #
+ #mmm#" "m m"    #    #"  #  #" "#  #"  #           ##   # ## # #
+ #       #m#     #    #   #  #   #  #   #   """    m""m  # "" # #
+ #       "#      "mm  #   #  "#m#"  #   #         m"  "m #    # #mmmmm
+         m"
+        ""
+```
+
+What you will use and learn:
+
+1. what is XML?
+2. variables, lists, dictionaries
+3. control structures
+4. methods and functions
+5. the `os` and `xml` modules in the Python standard library
