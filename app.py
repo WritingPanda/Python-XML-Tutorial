@@ -1,34 +1,34 @@
-# import python modules for use
+import os
+import xml.etree.ElementTree as et
 
 
-# Get the path to the directory where the project is located
+base_path = os.path.dirname(os.path.realpath(__file__))
 
+xml_file = os.path.join(base_path, "data\\product_listing.xml")
 
-# Get the XML file and save its path to a variable
+tree = et.parse(xml_file)
 
+root = tree.getroot()
 
-# Access the XML file, save it to memory, and parse it
+# for child in root:
+#     print(child.tag, child.attrib)
 
+# for child in root:
+#     for element in child:
+#         print(element.tag, ":", element.text)
 
-# Get root element with .getroot()
+new_product = et.SubElement(root, "product", attrib={"id": "4"})
+new_prod_name = et.SubElement(new_product, "name")
+new_prod_desc = et.SubElement(new_product, "description")
+new_prod_cost = et.SubElement(new_product, "cost")
+new_prod_ship = et.SubElement(new_product, "shipping")
 
+new_prod_name.text = "Python Pants"
+new_prod_desc.text = "These pants will surely help you code like crazy!"
+new_prod_cost.text = "39.95"
+new_prod_ship.text = "4.00"
 
-# Loop through the elements
+tree.write(xml_file)
 
-
-# Use the .tag and .attrib properties
-
-
-# Use the .text property to view the data inside of the elements
-
-
-# Write to XML file using .SubElement()
-
-
-# Create data in sub-elements using the .set() and .text() methods
-
-
-# Save the XML using the .write() method
-
-
-# Loop through the elements to see the changes
+for child in root:
+    print(child.tag, child.attrib)

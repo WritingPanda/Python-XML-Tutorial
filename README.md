@@ -14,13 +14,13 @@ Thank you for coming by and checking out my fundamentals of Python tutorial. In 
 
 ## Objectives
 
-In this lesson, you will learn and use:
+In this lesson, you will:
 
-1. what is XML?
-2. variables, lists, dictionaries
-3. control structures
-4. methods and functions
-5. the `os` and `xml` modules in the Python standard library
+1. learn what is XML
+2. use the `os` and `xml` modules in the Python standard library
+3. learn about XML elements and how to access them in python
+4. use methods to get access to tags, attributes, and text
+5. create new elements and write them to the XML file
 
 With these 4 elements, you will be able to understand how to read and write to an XML file.
 
