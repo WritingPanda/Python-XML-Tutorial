@@ -17,4 +17,4 @@
         <cost>$14.95</cost> 
         <shipping>$4.00</shipping> 
     </product>
-<product id="4"><name>Python Pants</name><description>These pants will surely help you code like crazy!</description><cost>39.95</cost><shipping>4.00</shipping></product></productListing>
+</productListing>

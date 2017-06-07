@@ -12,6 +12,8 @@
 
 Thank you for coming by and checking out my fundamentals of Python tutorial. In this lesson, we will be looking at how to read and write to XML using the Python programming language.
 
+Video here: [https://youtu.be/xIMg3lZHcEo](https://youtu.be/xIMg3lZHcEo)
+
 ## Objectives
 
 In this lesson, you will:
@@ -82,21 +84,21 @@ The following are an example of HTML and XML, so you can see the difference betw
 <!-- XML example -->
 <?xml version="1.0"?> 
 <productListing title="Python Products"> 
-    <product> 
+    <product id="1"> 
         <name>Python Hoodie</name> 
         <description>This hoodie will keep your code warm and fuzzy.</description> 
         <cost>$49.95</cost> 
         <shipping>$4.00</shipping> 
     </product> 
-    <product> 
+    <product id="2"> 
         <name>Python T-Shirt</name>
         <description>This shirt will make you look cool while you code.</description> 
         <cost>$19.95</cost> 
         <shipping>$4.00</shipping>
     </product> 
-    <product> 
+    <product id="3"> 
         <name>Python Baseball Cap</name> 
-        <description>Whatever you do, don't wear it backwards. People won't know what your favorite programming language is if you do!</description>
+        <description>Whatever you do, don't wear it backwards. People won't know what your favorite programming language is if you do!</description> 
         <cost>$14.95</cost> 
         <shipping>$4.00</shipping> 
     </product>
